@@ -9,9 +9,5 @@ __pycache__/
 venv/
 .env
 
-# Ignore data (optional)
-data/raw/*
-data/processed/*
-
 # macOS
 .DS_Store
