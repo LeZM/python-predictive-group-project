@@ -33,9 +33,7 @@ A predictive modeling pipeline for a non-profit organization to target the right
 
 - [Overview](#overview)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Usage](#usage)
+- [Installation & Usage](#installation--usage)
 - [Project Structure](#project-structure)
 - [Outputs](#outputs)
 - [Testing](#testing)
@@ -47,31 +45,19 @@ A predictive modeling pipeline for a non-profit organization to target the right
 
 python-predictive-group-project is a machine learning pipeline designed for a non-profit organization to strategically identify potential donors.
 
-Why this project?
+Key features include:
 
 - 🚀 Automated end-to-end workflow  
 - 📊 Exploratory data analysis and visualization  
 - 🤖 Predictive modeling using Scikit-learn + XGBoost  
-- 📈 Probability scoring to rank potential donors  
-- 🧠 Focused on actionable insights  
+- 📈 Donor probability scoring  
+- 🧠 Insight-driven decision support
 
 ---
 
-## Getting Started
+## Installation & Usage
 
-### Prerequisites
-
-This project requires:
-
-- **Programming Language:** Python  
-- **Environment Manager:** Conda  
-- **Notebook Interface:** Jupyter Notebook  
-
----
-
-## Installation
-
-Follow these steps:
+All steps are combined into **one single shell block** as requested:
 
 ```bash
 # 1. Clone the repository
@@ -80,11 +66,18 @@ git clone https://github.com/LeZM/python-predictive-group-project
 # 2. Enter the project directory
 cd python-predictive-group-project
 
-# 3. Create the Conda environment
+# 3. Create a Conda environment
 conda create -n predictive-env python=3.10 -y
 
 # 4. Activate the environment
 conda activate predictive-env
 
-# 5. Install all dependencies
+# 5. Install dependencies
 pip install -r requirements.txt
+
+# 6. Launch the main notebook (full pipeline)
+jupyter notebook notebooks/JupyterNotebook.ipynb
+
+# 7. Return to top (for README navigation)
+#   Copy/paste into browser: 
+#   https://github.com/LeZM/python-predictive-group-project#python-predictive-group-project
