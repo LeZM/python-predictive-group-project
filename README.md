@@ -77,7 +77,6 @@ pip install -r requirements.txt
 
 # 6. Launch the main notebook (full pipeline)
 jupyter notebook notebooks/JupyterNotebook.ipynb
+```
+[⬆️ Return](https://github.com/LeZM/python-predictive-group-project#python-predictive-group-project)
 
-# 7. Return to top (for README navigation)
-#   Copy/paste into browser: 
-#   https://github.com/LeZM/python-predictive-group-project#python-predictive-group-project
